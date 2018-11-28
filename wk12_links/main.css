@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Righteous');
+
 body{
 	background-color: brown; 
+	font-family: 'Righteous', cursive;
 }
+h1{
+	font-family: 'Nosifer', cursive;
+}
+
