@@ -1,4 +1,51 @@
+/*adding the -*- makes everything change, not only the body*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: pink;
+	font-family: @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+	background-color: maroon;
+	/*the padding and the margin make it close to the edge*/
+	padding: 0;
+	margin: 0;
+}
+/*adding -a- is to change the color of the lnks in order to have contrast*/
+a{
+	color: navajowhite;
+}
+
+/*hover changes the color link when you go over it*/
+a:hover{
+	color:black;
+	text-decoration: none;
+}	
+
+nav{
+	background-color: grey;
+}
+
+/*Navigation Styles*/
+/*when you dont want it in list format*/
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+/*adding the display will make it all one line*/
+	/*border: 1px white;*/
+	display: inline;
+}
+
+nav a{
+	/*space in bettween nav.*/
+	display: inline-block;
+	padding: 20px
+}
+/*adds a boc when you hover over it*/
+nav a:hover{
+	background-color: white;
+
 }
