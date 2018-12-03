@@ -5,7 +5,7 @@
 }
 
 body{
-	font-family: @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: maroon;
 	/*the padding and the margin make it close to the edge*/
 	padding: 0;
