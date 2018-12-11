@@ -5,16 +5,16 @@
 }
 
 body{
-	color:papayawhip;
+	color:#B8B8B8;
 	font-family: Arial, Helvetica, sans-serif; 
-	background-color:  #782100;
+	background-color:  #003333;
 	/*the padding and the margin make it close to the edge*/
 	padding: 0;
 	margin: 0;
 }
 /*adding -a- is to change the color of the lnks in order to have contrast*/
 a{
-	color: saddlebrown;
+	color:  #ffffcc;
 }
 
 /*hover changes the color link when you go over it*/
@@ -27,6 +27,10 @@ h1{
 	padding: 10px;
 	background-color: black;
 
+}
+
+video{
+	margin-top: 5px
 }
 
 img{
@@ -45,7 +49,7 @@ p{
 }
 
 nav{
-	background-color:  #c97542;
+	background-color:  #484848;
 }
 
 /*Navigation Styles*/
